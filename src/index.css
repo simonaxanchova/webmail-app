@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.roundedBorder {
+  border-radius: 25px !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.administration_landing_page_btn {
+  text-align: center;
+  cursor: pointer;
+}
+
+.administration_landing_page_btn:hover {
+  transition: background-color 0.7s ease, color 0.5s ease;
+  color: white;
+  background-color: rgb(112 193 194);
+}
+
+.recent_bookings_btn {
+  text-align: center;
+  cursor: pointer;
+}
+
+.imageBox {
+  position: relative;
+  float: left;
+  margin-left: 30%;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
+
+.textBox:hover {
+  color: #70c1c2 !important;
+}
+
+.textBox {
+  transition: color 1s ease;
+}
+
+.active {
+  color: #70c1c2 !important;
+  transform: scale(1.1);
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.isHover {
+  background-color: #d8e2dc !important;
+}
+
+.bounceButton {
+  position: absolute;
+  text-align: center;
+  left: -15px;
+  opacity: 1;
+  background: green;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-animation: bounce 0.4s infinite alternate;
+  -moz-animation: bounce 0.4s infinite alternate;
+  animation: bounce 0.4s infinite alternate;
+}
+@-webkit-keyframes bounce {
+  to {
+    -webkit-transform: scale(1.2);
+  }
+}
+@-moz-keyframes bounce {
+  to {
+    -moz-transform: scale(1.2);
+  }
+}
+@keyframes bounce {
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.activeStatus {
+  background-color: #bdbdbd !important;
+}
+
+.link {
+  text-transform: lowercase;
+  display: inline-block;
+}
+
+.link::first-line {
+  text-transform: capitalize;
+}

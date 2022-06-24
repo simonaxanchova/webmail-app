@@ -1,0 +1,75 @@
+{
+  "name": "asta-adria-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^2.14.0",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/core": "^4.12.3",
+    "@mui/icons-material": "^5.2.4",
+    "@mui/lab": "^5.0.0-alpha.61",
+    "@mui/material": "^5.2.2",
+    "@mui/x-date-pickers": "^5.0.0-alpha.4",
+    "@stomp/stompjs": "^6.1.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.24.0",
+    "date-fn": "^0.0.2",
+    "date-fns": "^2.27.0",
+    "draft-js": "^0.11.7",
+    "draft-js-export-html": "^1.4.1",
+    "draft-js-import-html": "^1.4.1",
+    "emailjs": "^3.7.0",
+    "env-cmd": "^10.1.0",
+    "jwt-decode": "^3.1.2",
+    "material-ui-phone-number": "^3.0.0",
+    "moment": "^2.29.2",
+    "moment-timezone": "^0.5.34",
+    "ol": "^6.10.0",
+    "ol-popup": "^4.0.0",
+    "react": "^17.0.2",
+    "react-avatar": "^4.0.0",
+    "react-collapsed": "^3.3.0",
+    "react-country-flag": "^3.0.2",
+    "react-dom": "^17.0.2",
+    "react-draft-wysiwyg": "^1.14.7",
+    "react-draggable": "^4.4.4",
+    "react-file-icon": "^1.1.0",
+    "react-horizontal-scrolling-menu": "^2.7.1",
+    "react-localization": "^1.0.17",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "^5.0.1",
+    "react-time-picker": "^4.5.0",
+    "reactstrap": "^9.0.1",
+    "redux": "^4.1.2",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
